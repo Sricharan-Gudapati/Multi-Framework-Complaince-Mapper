@@ -1,0 +1,37 @@
+{
+  "technical_controls": [
+    {
+      "control_id": "NET-01",
+      "control_name": "Cisco Perimeter & VLAN Segmentation Enforcement",
+      "description": "Enforce strict internal network boundaries and Access Control Lists (ACLs) via Cisco hardware routing rules.",
+      "framework_mappings": {
+        "NIST_CSF": "PR.AC-5",
+        "ISO_27001": "A.13.1.1",
+        "SOC_2": "CC6.6"
+      },
+      "status": "Implemented"
+    },
+    {
+      "control_id": "END-02",
+      "control_name": "Endpoint Protection & Real-time Monitoring",
+      "description": "Deploy endpoint security agents to monitor, detect, and isolate compromised assets.",
+      "framework_mappings": {
+        "NIST_CSF": "DE.CM-01",
+        "ISO_27001": "A.12.2.1",
+        "SOC_2": "CC7.1"
+      },
+      "status": "Implemented"
+    },
+    {
+      "control_id": "ACC-03",
+      "control_name": "Multi-Factor Authentication (MFA) Enforcement",
+      "description": "Require MFA for all administrative and remote access points.",
+      "framework_mappings": {
+        "NIST_CSF": "PR.AC-7",
+        "ISO_27001": "A.9.4.2",
+        "SOC_2": "CC6.1"
+      },
+      "status": "Partially Implemented"
+    }
+  ]
+}
